@@ -1,0 +1,68 @@
+body{
+  background-color: lightblue;
+}
+.Card{
+  position: relative;
+  top: 330px;
+  margin: 0 auto;
+  height: 170px;
+  width: 350px;
+  border: black solid;
+  border-radius: 22px;
+  background-image: url(simple-blur-background-image.jpg);
+}
+
+img{
+  width: 40px;
+  font-weight: normal;
+  position: relative;
+  top: 25px;
+  left: 30px;
+}
+.write-up{
+  color: white;
+  position: absolute;
+  top: 30px;
+  right: 50%;
+  font-size: 20px;
+}
+.EMV-chip{
+  
+  position: absolute;
+  left: 80%;
+}
+.card-number{
+  color: white;
+  font-weight: normal;
+  position: absolute;
+  top: 75px;
+  left: 25px;
+}
+.number{
+  color: white;
+  font-weight: normal;
+  position: absolute;
+  top: 90px;
+  left: 25px;
+}
+.card-holder{
+  color: white;
+  font-weight: normal;
+  position: absolute;
+  top: 110px;
+  left: 25px;
+}
+.durability-name{
+  color: white;
+  font-size: 13px;
+  position: absolute;
+  left: 77%;
+  top: 95px;
+}
+.durability{
+  color: white;
+  font-size: 17px;
+  position: absolute;
+  left: 77%;
+  top: 105px;
+}
